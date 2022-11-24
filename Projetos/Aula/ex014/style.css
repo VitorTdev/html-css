@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(7, 121, 7);
+    font-size: 2em;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+#titulo-principal {
+    background-color: rgb(7, 121, 7);
+    color: white;
+    text-align: center;
+}
+
+.topico {
+    color: rgb(52, 163, 52);
+    text-align: right;
+}
+
+.texto {
+    color: rgb(231, 231, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

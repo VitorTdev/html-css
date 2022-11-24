@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* { /* configurações globais*/
+    height: 50%;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: linear-gradient(160deg, #5F11FA, #420CAD, #2F097A);
+    color: white;
+}
+
+.tpc {
+    color: white;
+    font-size: 34px;
+}

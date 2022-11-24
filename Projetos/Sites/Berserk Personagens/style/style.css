@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+}
+
+header h1 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+    min-width: 280px;
+}
+
+header p {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+nav a {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+main {
+    border-top: 0.5px solid white;
+    color: white;
+    max-width: auto;
+    min-width: 280px;
+}
+
+main h2 {
+    margin-top: 30px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.70);
+    border-radius: 20px;
+    text-align: center;
+}
+
+main ul {
+    color: white;
+    margin: 30px;
+}
+
+main ul li {
+    list-style-type: '\2714';
+    padding: 10px;
+}
+
+main ul li a{
+    color: white;
+    font-size: 1.5em;
+    margin: -5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+main ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.60);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+main p.explicacao {
+    text-align: justify;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 200px;
+}
+
+aside {
+    border-top: 0.5px solid white;
+    margin: 25px 0px -10px 0px;
+}
+
+aside p {
+    font-size: 16px;
+    margin: 20px 5px;
+}
+
+aside ul li a{
+    font-size: 16px;
+    padding-left: 1px;
+}
+
+
+
+
+footer h2.voltar {
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+footer h2.voltar a {
+    color: black;
+    text-decoration: none;
+    padding: auto 5px;
+}
+
+footer h2.voltar a:hover {
+    text-decoration: underline;
+}
+
+footer h2.voltar a:active {
+    color: yellow;
+}
+
+footer {
+    border-top: 0.5px solid white;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+footer ul {
+    color: white;
+    margin: 20px auto;
+}
+
+footer ul li {
+    list-style-type: '\2714';
+    text-align: center;
+    margin: 5px auto;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.60);
+    color: black;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+footer img.logo {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
